@@ -1,0 +1,40 @@
+*{
+    /*font-family: 'Roboto', sans-serif;*/
+	margin: 16px auto;
+}
+
+body{
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: auto;
+}
+
+
+input[type=text]{
+    padding: 8px;
+    margin: 8px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: #D5D5D5;
+}
+
+button{
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 0;
+    width: 50%;
+    height: 20%;
+    font-size: 1rem;
+}
